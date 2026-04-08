@@ -1,4 +1,5 @@
 PASSWORD: 2026
+
 Multi‑Algorithm Silent Miner for ETC, RVN, XMR, RTM & More
 SilentCryptoMiner is a native C++ cryptocurrency miner with advanced features for silent (hidden) operation. It supports dozens of algorithms and cryptocurrencies, including ETC, RVN, XMR, and RTM. This tool is intended for experienced users and researchers working in controlled environments.
 
